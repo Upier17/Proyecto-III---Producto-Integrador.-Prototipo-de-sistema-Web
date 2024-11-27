@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Configuracion
+</title>
+    </head>
+    <html>
+        <header class="header">
+            <nav class="navbar">
+                <a href="index.html">
+                <img class="logo" src="imagenes/Logo.png" alt="">
+            </a>
+                
+                <label class="labe_hamburguesa" for="menu_hamburguesa">
+</label>
+
+                <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+
+                <ul class="ul_links">
+
+                    <li class="li_links">
+                        <a href="sesion.html" class="link">Iniciar sesion</a>
+                    </li>
+                    <li class="li_links">
+                        <a href="clientes.html" class="link">Clientes</a>
+                    </li>
+                    <li class="li_links">
+                        <a href="proveedores.html" class="link">Proveedores</a>
+                    </li>
+                    <li class="li_links">
+                        <a href="productos.html" class="link">Productos</a>
+                    </li>
+                    <li class="li_links">
+                        <a href="configuracion.html" class="link">Configuracion</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <body class="bodySettings"> 
+            <div class="menu">
+                 <div class="menu-item">
+                     <label for="users">Usuarios</label> 
+                     </div>
+                <div class="menu-item"> 
+                    <label for="employees">Empleados</label> 
+                    </div> 
+                <div class="menu-item"> 
+                    <label for="font-size">Tamaño de letra</label> 
+                    <select id="font-size"> 
+                        <option value="small">Pequeña</option> 
+                        <option value="medium">Mediana</option> 
+                        <option value="large">Grande</option> 
+                    </select> 
+                </div> 
+                
+                <div class="menu-item dark-mode-toggle">
+                    <label for="dark-mode">Modo oscuro</label>
+                    <label class="switch">
+                        <input type="checkbox" id="dark-mode">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                
+                <div class="menu-item dark-mode-toggle">
+                    <label for="dark-mode">Activar notificaciones</label>
+                    <label class="switch">
+                        <input type="checkbox" id="dark-mode">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+
+                
+                <div class="menu-item"> 
+                    <button class="logout-btn">Cerrar sesión</button> 
+                </div>
+
+
+            </div>
+
+        </body>
+
+</html>
